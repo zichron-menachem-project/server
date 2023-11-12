@@ -1,0 +1,48 @@
+// /* eslint-disable prettier/prettier */
+// /* eslint-disable @typescript-eslint/no-empty-function */
+// import { Test, TestingModule } from '@nestjs/testing';
+// import { SystemController } from './system.controller';
+// import { System } from './system.model';
+// import { SystemService } from './system.service';
+
+// describe('SystemController', () => {
+//   let systemController: SystemController;
+//   // let systemService: SystemService;
+
+//   let moduleRef: TestingModule;
+
+//   beforeEach(async () => {
+    
+//     moduleRef = await Test.createTestingModule({
+//       controllers: [SystemController],
+//       providers: [{provide: SystemService, useValue: {}}],
+//     }).compile();
+    
+//     systemController = moduleRef.get<SystemController>(SystemController);
+//     // systemService = moduleRef.get<SystemService>(SystemService);
+//   });
+
+//   // describe('SystemService gets functionality', () => {
+//   //   it('should get array of systems', async () => {
+//   //     const result: any[] = ['test'];
+//   //     try {
+//   //       jest
+//   //         .spyOn(systemService, 'getSystems')
+//   //         .mockImplementation(async () => result);
+
+//   //       expect(await systemController.getAll()).toBe(result);
+//   //     } catch (err) { }
+//   //   });
+
+//   //   it('getSystemById', async () => {
+//   //     const result: any = { test: 'test' };
+//   //     jest.spyOn(systemService, 'getSystemById').mockImplementation(() => result);
+//   //     const system = await systemController.getSystemById('987');
+//   //     expect(system).toBe(result);
+//   //   });
+//   // });
+
+//   it('should be defined', () => {
+//     expect(systemController).toBeDefined();
+//   });
+// });
